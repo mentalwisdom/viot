@@ -1,0 +1,381 @@
+{
+  "drawflow": {
+    "drawflow": {
+      "Home": {
+        "data": {
+          "1": {
+            "id": 1,
+            "name": "esphome",
+            "data": {
+              "type": "esphome"
+            },
+            "class": "node-esphome",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/esphome.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">ESPHome Core</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 46,
+            "pos_y": 48
+          },
+          "2": {
+            "id": 2,
+            "name": "logger",
+            "data": {
+              "type": "logger"
+            },
+            "class": "node-logger",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/logger.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">Logger</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 45,
+            "pos_y": 191
+          },
+          "3": {
+            "id": 3,
+            "name": "wifi",
+            "data": {
+              "type": "wifi"
+            },
+            "class": "node-wifi",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/wifi.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">WiFi</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 253,
+            "pos_y": 52
+          },
+          "4": {
+            "id": 4,
+            "name": "ota",
+            "data": {
+              "type": "ota"
+            },
+            "class": "node-ota",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/ota.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">Ota</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 348,
+            "pos_y": 54
+          },
+          "5": {
+            "id": 5,
+            "name": "globals",
+            "data": {
+              "type": "globals"
+            },
+            "class": "node-globals",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/globals.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">Globals</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 442,
+            "pos_y": 55
+          },
+          "6": {
+            "id": 6,
+            "name": "input_switch",
+            "data": {
+              "type": "input_switch"
+            },
+            "class": "node-input_switch",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/input_switch.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">GPIO Input Switch</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "21",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "pos_x": 43,
+            "pos_y": 345
+          },
+          "9": {
+            "id": 9,
+            "name": "switch",
+            "data": {
+              "type": "switch"
+            },
+            "class": "node-switch",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/switch.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">Switch</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 156,
+            "pos_y": 196
+          },
+          "12": {
+            "id": 12,
+            "name": "esp32",
+            "data": {
+              "type": "esp32"
+            },
+            "class": "node-esp32",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/esp32.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">ESP32 Core</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 147,
+            "pos_y": 53
+          },
+          "13": {
+            "id": 13,
+            "name": "dht11",
+            "data": {
+              "type": "dht11"
+            },
+            "class": "node-dht11",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/dht11.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">DHT11 Temp & Humidity</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {
+              "output_1": {
+                "connections": []
+              }
+            },
+            "pos_x": 42,
+            "pos_y": 487
+          },
+          "14": {
+            "id": 14,
+            "name": "mqtt",
+            "data": {
+              "type": "mqtt"
+            },
+            "class": "node-mqtt",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/mqtt.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">MQTT Config</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {},
+            "outputs": {},
+            "pos_x": 278,
+            "pos_y": 190
+          },
+          "20": {
+            "id": 20,
+            "name": "lambda_action",
+            "data": {
+              "type": "lambda_action"
+            },
+            "class": "node-lambda_action",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/process.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">Lambda</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "21",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {},
+            "pos_x": 308,
+            "pos_y": 344
+          },
+          "21": {
+            "id": 21,
+            "name": "on_press",
+            "data": {
+              "type": "on_press"
+            },
+            "class": "node-on_press",
+            "html": "\n<div class=\"node-vertical-compact\">\n  <div class=\"node-main-content\">\n    <img src=\"/icons/on_press.png\" class=\"node-icon-img\" />\n    <div class=\"node-label-text\">On Press</div>\n  </div>\n</div>",
+            "typenode": false,
+            "inputs": {
+              "input_1": {
+                "connections": [
+                  {
+                    "node": "6",
+                    "input": "output_1"
+                  }
+                ]
+              }
+            },
+            "outputs": {
+              "output_1": {
+                "connections": [
+                  {
+                    "node": "20",
+                    "output": "input_1"
+                  }
+                ]
+              }
+            },
+            "pos_x": 167,
+            "pos_y": 343
+          }
+        }
+      }
+    }
+  },
+  "nodeDataMap": {
+    "1": {
+      "id": 1,
+      "type": "esphome",
+      "label": "ESPHome Core",
+      "tabId": "Home",
+      "config": {
+        "id": "esphome_1",
+        "name": "smart2",
+        "friendly_name": "smart2",
+        "platform": "",
+        "use_on_boot": "",
+        "on_boot_lambda": "id(esptime).read_time();"
+      }
+    },
+    "2": {
+      "id": 2,
+      "type": "logger",
+      "label": "Logger",
+      "tabId": "Home",
+      "config": {
+        "id": "logger_1",
+        "level": "DEBUG"
+      }
+    },
+    "3": {
+      "id": 3,
+      "type": "wifi",
+      "label": "WiFi",
+      "tabId": "Home",
+      "config": {
+        "id": "wifi_1",
+        "ssid": "ROBOTIC14 2.4G",
+        "password": "0853509291",
+        "fast_connect": "",
+        "no_reboot_wifi": "",
+        "reboot_timeout": "15min",
+        "show_advanced": "",
+        "ap_ssid": "Setup-Valve-Node",
+        "ap_password": "password1234",
+        "advance": ""
+      }
+    },
+    "4": {
+      "id": 4,
+      "type": "ota",
+      "label": "Ota",
+      "tabId": "Home",
+      "config": {
+        "id": "ota_1",
+        "platform": "esphome",
+        "password": "012345678"
+      }
+    },
+    "5": {
+      "id": 5,
+      "type": "globals",
+      "label": "Globals",
+      "tabId": "Home",
+      "config": {
+        "id": "globals_1",
+        "type": "int",
+        "restore_value": "yes",
+        "initial_value": "",
+        "vars": [
+          {
+            "id": "var1",
+            "type": "int",
+            "initial_value": "0"
+          }
+        ]
+      }
+    },
+    "6": {
+      "id": 6,
+      "type": "input_switch",
+      "label": "GPIO Input Switch",
+      "tabId": "Home",
+      "config": {
+        "id": "input1",
+        "platform": "gpio",
+        "name": "my input1",
+        "pin": "GPIO17",
+        "pin_mode": "PULLUP",
+        "inverted": true,
+        "debounce_ms": 50
+      }
+    },
+    "9": {
+      "id": 9,
+      "type": "switch",
+      "label": "Switch",
+      "tabId": "Home",
+      "config": {
+        "id": "led1",
+        "platform": "gpio",
+        "name": "led1",
+        "pin": "GPIO19",
+        "inverted": ""
+      }
+    },
+    "12": {
+      "id": 12,
+      "type": "esp32",
+      "label": "ESP32 Core",
+      "tabId": "Home",
+      "config": {
+        "id": "esp32_1",
+        "board": "esp32dev",
+        "framework_type": "esp-idf"
+      }
+    },
+    "13": {
+      "id": 13,
+      "type": "dht11",
+      "label": "DHT11 Temp & Humidity",
+      "tabId": "Home",
+      "config": {
+        "id": "dht11_1",
+        "pin": "GPIO32",
+        "update_interval": "5s",
+        "temp_id": "temp1",
+        "temp_name": "Room Temperature",
+        "hum_id": "hum1",
+        "hum_name": "Room Humidity"
+      }
+    },
+    "14": {
+      "id": 14,
+      "type": "mqtt",
+      "label": "MQTT Config",
+      "tabId": "Home",
+      "config": {
+        "id": "mqtt_1",
+        "broker": "192.168.1.139",
+        "port": 1883,
+        "topic_prefix": "iot",
+        "discovery": "",
+        "reboot_timeout": "30s"
+      }
+    },
+    "20": {
+      "id": 20,
+      "type": "lambda_action",
+      "label": "Lambda",
+      "tabId": "Home",
+      "config": {
+        "code": "id(led1).toggle()\n#logi \"esp\",\"messge\""
+      }
+    },
+    "21": {
+      "id": 21,
+      "type": "on_press",
+      "label": "On Press",
+      "tabId": "Home",
+      "config": {}
+    }
+  },
+  "nodeCounter": {},
+  "tabs": [
+    "Home"
+  ],
+  "activeTab": "Home"
+}
